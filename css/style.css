@@ -21,7 +21,6 @@ header {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-
 }
 .header-container a {
 	color: #000;
@@ -89,4 +88,30 @@ nav {
 		top: 30px;
 		right: 11px;
 	}
+}
+
+.top-slide {
+	background: url(../img/slider_bg.jpg) no-repeat;
+	padding-top: 120px;
+	padding-bottom: 280px;
+}
+.top-container {
+	width: 80%;
+	margin: 0 auto;
+}
+.top-slide h2 {
+	background: #ffea00;
+	display: inline;
+	font-size: 70px;
+	padding: 0 13px;
+}
+.top-slide :nth-child(2) {
+	margin-bottom: 10px;
+}
+.top-slide p {
+	background: #414146;
+	display: inline;
+	font-size: 24px;
+	padding: 0 4px;
+	color: #fff;
 }
