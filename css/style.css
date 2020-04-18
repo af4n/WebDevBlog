@@ -40,7 +40,6 @@ ul {
 nav {
 	margin-top: 20px;
 }
-
 @media screen and ( max-width: 768px) {
 	.header-container {
 		width: 100%;
@@ -89,7 +88,6 @@ nav {
 		right: 11px;
 	}
 }
-
 .top-slide {
 	background: url(../img/slider_bg.jpg) no-repeat;
 	padding-top: 120px;
@@ -114,4 +112,95 @@ nav {
 	font-size: 24px;
 	padding: 0 4px;
 	color: #fff;
+}
+.specialize-container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.specialize-container h3 {
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.specialize-container p {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.specialize-cards {
+	display: flex;
+	justify-content: space-between;
+}
+.card:hover {
+	opacity: 0.8;
+	transition: .3s;
+}
+.top-card {
+	width: 250px;
+	height: 200px;
+	background: #ffea00;
+	position: relative;
+}
+.top-card img {
+	position: absolute;
+	vertical-align: middle;
+	margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.bottom-card {
+	background: #414146;
+	position: relative;
+	height: 85px;
+	top: -30px;
+}
+.first-p {
+	font-size: 20px;
+	color: #fff;
+}
+.portfolio {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.portfolio h4 {
+	background: #424147;
+	padding: 0 8px;
+	display: inline-block;
+	color: #f5e10a;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.portfolio p {
+	color: #424146;
+	font-size: 16px;
+}
+.toggles button {
+	border: none;
+	color: #424146;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 20px 5px;
+}
+.toggles button:after {
+	content: ' / ';
+}
+.toggles button:last-child:after {
+	content: '';
+}
+.posts {
+	width: 90%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto auto auto auto;
+}
+.post img{
+	width: 250px;
+	height: 250px;
+}
+body{
+	height: 4000px;
 }
