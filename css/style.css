@@ -179,7 +179,59 @@ nav {
 .owl-carousel {
 	cursor: pointer;
 }
+footer {
+	background: #414146;
+	padding: 30px 0;
+	color: #fff;
+}
+.footer-container {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 35% 30% 25%;
+	grid-column-gap: 3%;
+}
+footer h4 {
+	font-size: 18px;
 
+}
+.footer-container .about-us a {
+	background: #000;
+	border-bottom: 2px solid #f5e10a;
+	color: #fff;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.images {
+	padding-top: 10px;
+}
+.tweets p{
+	margin-top: 30px;
+}
+.tweets span {
+	color: #f5e10a;
+}
+.tweets p img {
+	padding-right: 10px;
+}
+.tweets .social h4 {
+	margin-top: 30px;
+}
+.tweets .social p {
+	margin-top: 10px;
+}
+.contacts p img {
+	padding-right: 10px;
+}
+.contacts p{
+	margin-top: 30px;
+}
+.contacts span {
+	color: #f5e10a;
+}
 
 @media screen and ( max-width: 768px) {
 	.header-container {
@@ -259,6 +311,22 @@ nav {
 @media screen and ( max-width: 630px) {
 	.posts {
 		grid-template-columns: auto;
+	}
+	.footer-container {
+		grid-template-columns: auto;
+		text-align: center;
+	}
+	.tweets h4 {
+		margin-top: 20px;
+	}
+	.tweets p {
+		text-align: left;
+	}
+	.contacts h4 {
+		margin-top: 20px;
+	}
+	.contacts p {
+		text-align: left;
 	}
 }
 
